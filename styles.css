@@ -152,6 +152,11 @@ hr {
     padding-inline-start: 1px;
 }
 
+.temp {
+    text-align: center;
+    color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
     body {
         max-width: 95%;
