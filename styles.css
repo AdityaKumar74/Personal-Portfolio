@@ -9,7 +9,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    overflow-x: hidden;
 }
 
 hr {
@@ -25,10 +24,8 @@ hr {
 }
 
 .container-center {
-    max-width: 700px;
-    padding: 0.5rem 0.5rem;
+    max-width: 600px;
     margin: auto;
-    display: block;
 }
 
 /** links **/
@@ -105,7 +102,6 @@ hr {
 .hero .hero-img {
     max-width: 350px;
     display: block;
-    padding: 2rem;
     margin: auto;
 }
 
