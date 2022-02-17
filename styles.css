@@ -9,6 +9,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 hr {
@@ -24,8 +25,10 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 700px;
+    padding: 0.5rem 0.5rem;
     margin: auto;
+    display: block;
 }
 
 /** links **/
@@ -102,6 +105,7 @@ hr {
 .hero .hero-img {
     max-width: 350px;
     display: block;
+    padding: 2rem;
     margin: auto;
 }
 
@@ -155,19 +159,4 @@ hr {
 .temp {
     text-align: center;
     color: var(--primary-color);
-}
-
-@media (max-width: 900px) {
-    body {
-        max-width: 95%;
-        width: 100%;
-    }
-
-    .container-center {
-        width: auto;
-    }
-
-    .link-primary {
-        display: block;
-    }
 }
